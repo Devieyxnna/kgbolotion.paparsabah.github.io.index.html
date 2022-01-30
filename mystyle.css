@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;  
+     
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.bolotikon.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+   
+position: fixed;
+    
+  }
+  
+  .container .btn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+    
+  }
+  
+  .container .btn:hover {
+    background-color: skyblue;
+    color: whitesmoke;
+    
+
+  }
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid black;
+    
+}
+
+ul li a:hover{
+    background-color:white;
+    color: powderblue;
+    
+
+}
+
+ul li.active a{
+    background-color: powderblue;
+    color: black;
+
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Sofia", sans-serif;     
+}
+
+.title h1{
+    color:white;
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Sofia", sans-serif;
+
+
+}
+
+
+h2{color: black;
+    background:paleturquoise;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: powderblue;
+    text-align: center;
+    text-decoration-color: deepskyblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    font-family: "Sofia", sans-serif;
+}
+    
+h3{
+    color: white;
+    background:black;
+}
+
+h4{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    border: 2px solid powderblue;   
+}
+
+ h5{
+     color:whitesmoke;
+ }
+
+
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
